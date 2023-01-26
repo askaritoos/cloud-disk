@@ -1,4 +1,4 @@
 {
   "serverPort": 5000,
-  "dbUrl": "mongodb+srv://askaritoos:Askmeplease07?@cluster0.zfma60m.mongodb.net/?retryWrites=true&w=majority"
+  "dbUrl": "mongodb+srv://askaritoos:Askemeplease07@cluster0.zfma60m.mongodb.net/?retryWrites=true&w=majority"
 }
