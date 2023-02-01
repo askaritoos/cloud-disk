@@ -13,12 +13,12 @@ const start = async () => {
     try {
         await mongoose.connect(config.get("dbUrl"))
 
-        app.listen(PORT, () => {
-            console.log('Server started on port ', PORT)
-        })
+        app.listen(PORT)
     } catch (e) {
 
     }
 }
 
-start()
+start().then(()=>{
+    console.log('Server started on port ', PORT)
+})
